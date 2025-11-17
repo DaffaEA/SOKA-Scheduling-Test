@@ -1,0 +1,7 @@
+# Generated requirements for this project
+# Detected external packages from scheduler.py
+# Install with: pip install -r requirements.txt
+
+httpx>=0.24
+pandas>=1.5
+python-dotenv>=1.0
