@@ -2,22 +2,15 @@
 
 Sistem penjadwalan tugas terdistribusi menggunakan algoritma Dung Beetle Optimizer (DBO) untuk mengoptimalkan eksekusi task pada multiple VM.
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 atau lebih tinggi
 - Akses jaringan ke VM server yang ditentukan
 - Virtual environment (recommended)
 
-## 🚀 Quick Start
+##  Quick Start
 
-### 1. Clone/Download Project
-```bash
-# Jika menggunakan git
-git clone <repository-url>
-cd FP
 
-# Atau extract jika dari ZIP
-```
 
 ### 2. Create and Activate Virtual Environment
 
@@ -92,7 +85,7 @@ python scheduler.py
 | `DBO_PROB_LOCAL` | 0.7 | Probabilitas local search |
 | `BASE_MIPS_PER_CORE` | 1000 | Base MIPS per core CPU |
 
-## 📊 Output
+## Output
 
 Setelah eksekusi selesai, sistem akan menghasilkan:
 
@@ -105,34 +98,7 @@ Setelah eksekusi selesai, sistem akan menghasilkan:
    - Load balancing metrics
 
 
-
-
-## 📈 Usage Examples
-
-### Basic Usage
+## Usage
 ```bash
 python scheduler.py
 ```
-
-### Custom Dataset
-```bash
-# Edit DATASET_FILE di .env atau:
-DATASET_FILE=custom_dataset.txt python scheduler.py
-```
-
-### Development Mode
-```bash
-# Dengan debug output dan shorter iterations
-DBO_MAX_ITER=50 DBO_POPULATION=10 python scheduler.py
-```
-
-## 🤝 Contributing
-
-1. Pastikan virtual environment aktif
-2. Install development dependencies jika ada
-3. Run tests sebelum commit
-4. Follow coding standards
-
----
-
-**Note**: Pastikan semua VM server dapat diakses dan endpoint `/task/{index}` tersedia sebelum menjalankan scheduler.
