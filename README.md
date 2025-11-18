@@ -97,8 +97,11 @@ Setelah eksekusi selesai, sistem akan menghasilkan:
    - Resource utilization
    - Load balancing metrics
 
+![WhatsApp Image 2025-11-18 at 10 17 36_4c4cc9f6](https://github.com/user-attachments/assets/f6f55914-fb15-4f5b-ae53-17fd1d77dfdc)
+
 
 ## Usage
 ```bash
 python scheduler.py
 ```
+
